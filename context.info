@@ -2,8 +2,3 @@ name = Context
 description = "Provide modules with a cache that lasts for a single page request."
 package = Context
 core = "6.x"
-; Information added by Drupal 6 LTS vendors on 2018-12-28
-version = "6.x-2.2"
-core = "6.x"
-project = "context"
-datestamp = "1546028851"
