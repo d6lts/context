@@ -119,8 +119,8 @@ function context_contrib_node_condition(&$node, $op) {
   // Implementation of context for CCK.
   if (module_exists('content')) {
     foreach (content_fields() as $field) {
-      if (isset($node->$field['field_name']) && $options = content_allowed_values($field)) {
-        foreach ($node->$field['field_name'] as $item) {
+      if (isset($node->{$field['field_name']}) && $options = content_allowed_values($field)) {
+        foreach ($node->{$field['field_name']} as $item) {
           context_set_by_condition($field['field_name'], $item['value']);
         }
       }
