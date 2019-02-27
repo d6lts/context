@@ -3,9 +3,3 @@ description = "Provides a simple UI for setting up a site structure using Contex
 dependencies[] = context
 package = Context
 core = "6.x"
-
-; Information added by Drupal 6 LTS vendors on 2019-02-27
-version = "6.x-2.3"
-core = "6.x"
-project = "context"
-datestamp = "1551292801"
